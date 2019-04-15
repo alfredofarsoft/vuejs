@@ -5,3 +5,7 @@ Aula 1:
 Aula 2: Diretivas
 - Sempre começa com v-, exemplos:
 v-model, v-if, v-else, v-show
+
+Aula 3: Diretivas na prática
+- v-if: O mesmo não mostra o elemento dentro do código, se por exemplo fizer a inspeção na página ele não aparece
+- v-show: O mesmo mostra o elemento dentro do código, se por exemplo fizer a inspeção na página ele aparece

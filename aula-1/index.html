@@ -7,15 +7,15 @@
     <title>Aula 1 - Vue JS do Jeito Ninja</title>
 </head>
 <body>
-    <div id = "app" v-model, v-if, v-else, v-show>
-       <h1> {{titulo}} </h1>
+    <div id = "app">
+       <h1 v-show="texto"> Texto {{titulo}} </h1>
     </div>
-    {{titulo}}
 <script src="https://unpkg.com/vue"></script>
 <script>
 var app = new Vue({
     el: "#app",
     data: {
+        texto: false,
         titulo: "Aula 1"
     }
 });
